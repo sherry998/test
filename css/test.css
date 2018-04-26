@@ -1,0 +1,58 @@
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+ 
+}
+
+.largeNav {
+	margin-bottom: 5px;
+    padding-left:20px;
+    padding-right:10x;
+}
+
+.smallNav {margin:0px;
+}
+
+.navbar-brand{
+    background-image: url(https://i.imgur.com/dUMf2Fi.png);
+    width: 150px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center center;  
+    margin-bottom:10px;
+    
+   
+}
+
+.container-fluid{
+    margin-top: 15px;
+    padding-right: 30px;
+}
+
+
+.breadcrumb > li + li:before {
+    color: #CCCCCC;
+    content: "/ ";
+    padding: 0 5px;
+    
+}
+.sButton{
+    color:black;
+}
+
+.small-header{
+    display:none
+}
+
+@media(max-width:960px)
+{
+    .largeNav{
+        display:none
+    }
+    .small-header{
+        display:block
+    }
+
+}
+
+
