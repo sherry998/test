@@ -1,0 +1,55 @@
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  
+ 
+}
+
+
+.nav-btn{
+margin:1em;
+
+}
+#smallB {
+border-top: 1px;
+border-color:gray;
+
+
+}
+
+
+.bottom-link{
+color:black;
+padding:15px; 
+font-size: 20px;
+
+
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top:10px;
+}
+
+.small-header{
+	
+    display:none
+}
+
+
+
+@media(max-width:960px)
+{
+    .largeNav{
+        display:none
+    }
+    .small-header{
+        display:block
+    }
+
+}
+
+}
